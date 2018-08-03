@@ -28,7 +28,7 @@ class _ChangePasswordPageState extends State<ChangePasswordPage>{
         shrinkWrap: false,
         children: <Widget>[
           Padding(
-            padding: EdgeInsets.only(top:18.0, left: 20.0, right: 102.0),
+            padding: EdgeInsets.only(top:60.0, left: 20.0, right: 102.0),
             child: Container(
               height: 27.0,
               child: Row(
@@ -59,7 +59,10 @@ class _ChangePasswordPageState extends State<ChangePasswordPage>{
  
           Padding(
             padding: EdgeInsets.only(top: 44.0, left: 118.0, right:118.0),
-            
+            child: Image.asset(
+              'assets/icon/password_icon.png',
+              width: 124.0, height: 112.0,
+            ),
           ),
  
           Padding(
